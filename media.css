@@ -1,0 +1,365 @@
+@media screen and (min-width: 0px) and (max-width: 200px) {
+    #photo {
+        left: 100px;
+    }
+
+    #question {
+        left: 120px;
+        right: -500px;
+    }
+
+    #yes {
+        left: 250px;
+    }
+
+    #no {
+        left: 400px;
+    }
+
+    #yesText, #noText {
+        left: 250px;
+        right: -500px;
+    }
+}
+
+
+@media screen and (min-width: 201px) and (max-width: 400px) {
+    #photo {
+        left: 290px;
+    }
+
+    #question {
+        left: 250px;
+        right: -575px;
+    }
+
+    #yes {
+        left: 390px;
+    }
+
+    #no {
+        left: 540px;
+    }
+
+    #yesText, #noText {
+        left: 390px;
+        right: -575px;
+    }
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+    #photo {
+        left: 300px;
+    }
+
+    #question {
+        left: 260px;
+        right: -500px;
+    }
+
+    #yes {
+        left: 400px;
+    }
+
+    #no {
+        left: 550px;
+    }
+
+    #yesText, #noText {
+        left: 400px;
+        right: -500px;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    #photo {
+        left: 320px;
+    }
+
+    #question {
+        left: 290px;
+        right: -300px;
+    }
+
+    #yes {
+        left: 430px;
+    }
+
+    #no {
+        left: 580px;
+    }
+
+    #yesText, #noText {
+        left: 430px;
+        right: -300px;
+    }
+}
+
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+    #photo {
+        left: 320px;
+    }
+
+    #question {
+        left: 290px;
+        right: -300px;
+    }
+
+    #yes {
+        left: 430px;
+    }
+
+    #no {
+        left: 580px;
+    }
+
+    #yesText, #noText {
+        left: 430px;
+        right: -300px;
+    }
+}
+
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+    #photo {
+        left: 300px;
+    }
+
+    #question {
+        left: 260px;
+        right: 0px;
+    }
+
+    #yes {
+        left: 400px;
+    }
+
+    #no {
+        left: 550px;
+    }
+
+    #yesText, #noText {
+        left: 400px;
+        right: 0px;
+    }
+}
+
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    #photo {
+        left: 370px;
+    }
+
+    #question {
+        left: 340px;
+        right: 0px;
+    }
+
+    #yes {
+        left: 500px;
+    }
+
+    #no {
+        left: 650px;
+    }
+
+    #yesText, #noText {
+        left: 500px;
+        right: 0px;
+    }
+}
+
+
+@media screen and (min-width: 1401px) and (max-width: 1600px) {
+    #photo {
+        left: 500px;
+    }
+
+    #question {
+        left: 465px;
+        right: 0px;
+    }
+
+    #yes {
+        left: 600px;
+    }
+
+    #no {
+        left: 750px;
+    }
+
+    #yesText, #noText {
+        left: 600px;
+        right: 0px;
+    }
+}
+
+
+@media screen and (min-width: 1601px) and (max-width: 1800px) {
+    #photo {
+        left: 580px;
+    }
+
+    #question {
+        left: 545px;
+        right: 0px;
+    }
+
+    #yes {
+        left: 700px;
+    }
+
+    #no {
+        left: 850px;
+    }
+
+    #yesText, #noText {
+        left: 700px;
+        right: 0px;
+    }
+}
+
+
+@media screen and (min-width: 1801px) and (max-width: 2000px) {
+    #photo {
+        left: 690px;
+    }
+
+    #question {
+        left: 655px;
+        right: 0px;
+    }
+
+    #yes {
+        left: 800px;
+    }
+
+    #no {
+        left: 950px;
+    }
+
+    #yesText, #noText {
+        left: 800px;
+        right: 0px;
+    }
+}
+
+
+@media screen and (min-width: 2001px) and (max-width: 2200px) {
+    #photo {
+        left: 800px;
+    }
+
+    #question {
+        left: 765px;
+        right: 0px;
+    }
+
+    #yes {
+        left: 900px;
+    }
+
+    #no {
+        left: 1050px;
+    }
+
+    #yesText, #noText {
+        left: 900px;
+        right: 0px;
+    }
+}
+
+
+@media screen and (min-width: 2201px) and (max-width: 2400px) {
+    #photo {
+        left: 900px;
+    }
+
+    #question {
+        left: 865px;
+    }
+
+    #yes {
+        left: 1000px;
+    }
+
+    #no {
+        left: 1150px;
+    }
+
+    #yesText, #noText {
+        left: 1000px;
+    }
+}
+
+
+@media screen and (min-width: 2401px) and (max-width: 2600px) {
+    #photo {
+        left: 1000px;
+    }
+
+    #question {
+        left: 965px;
+    }
+
+    #yes {
+        left: 1100px;
+    }
+
+    #no {
+        left: 1250px;
+    }
+
+    #yesText, #noText {
+        left: 1100px;
+    }
+}
+
+
+@media screen and (min-width: 2601px) and (max-width: 2800px) {
+    #photo {
+        left: 1100px;
+    }
+
+    #question {
+        left: 1065px;
+    }
+
+    #yes {
+        left: 1200px;
+    }
+
+    #no {
+        left: 1350px;
+    }
+
+    #yesText, #noText {
+        left: 1200px;
+    }
+}
+
+
+@media screen and (min-width: 2801px) and (max-width: 3000px) {
+    #photo {
+        left: 1200px;
+    }
+
+    #question {
+        left: 1165px;
+    }
+
+    #yes {
+        left: 1300px;
+    }
+
+    #no {
+        left: 1450px;
+    }
+
+    #yesText, #noText {
+        left: 1300px;
+    }
+}
