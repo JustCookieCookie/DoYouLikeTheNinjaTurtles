@@ -1,25 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>NinjaTurtles</title>
 </head>
 <body>
-
     <div class="container">
-        <img id="photo" src="https://pngimg.com/uploads/ninja_turtles/ninja_turtles_PNG55.png">
-        <p id="question">ТЕБЕ НРАВЯТСЯ ЧЕРЕПАШКИ-НИНДЗЯ?</p>
-
+        <img class="photo" src="https://pngimg.com/uploads/ninja_turtles/ninja_turtles_PNG55.png">
+        <p class="question">ТЕБЕ НРАВЯТСЯ ЧЕРЕПАШКИ-НИНДЗЯ?</p>
         <div class="buttons">
-            <button id="yes" onclick="yes()">ДА</button>
-            <button id="no" onclick="newCoordinates()" onmouseover="newCoordinates()">НЕТ</button>
+            <button class="button button--yes">ДА</button>
+            <button class="button button--no">НЕТ</button>
         </div>
-
-        <p id="yesText"></p>
+        <p class="yesText"></p>
     </div>
-
+    <script src="scripts.js"></script>
 </body>
 </html>

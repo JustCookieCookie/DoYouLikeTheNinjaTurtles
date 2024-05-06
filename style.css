@@ -1,70 +1,53 @@
 body {
-    color: dark;
-    font-family: Arial;
+    margin: 0;
 }
 
 .container {
-    display: grid;
-    position: relative;
     text-align: center;
-    justify-self: end;
-    align-self: center;
-}
-
-#photo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    height: auto;
-    max-width: 500px;
-    width: 99%;
-}
-
-#question {
+    display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.photo {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.question {
     font-weight: 800;
     font-size: 24px;
-    margin-bottom: 30px;
+    font-family: Arial;
 }
 
-#yes {
-    margin-left: -100px;
-    margin-right: 20px;
-    text-align: center;
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    cursor: pointer;
     font-weight: 800;
     font-size: 20px;
-    padding: 10px 10 10px 10px;
+    padding: 0 20px;
     border: 1px solid dark;
-    background: lightgreen;
     border-radius: 10px;
-    width: 100px;
-    height: 35px;
+    background-color: lightgreen;
 }
-#yes:active {
+
+.button:active {
     filter: brightness(90%);
 }
 
-#no {
-    position: absolute;
-    text-align: center;
-    font-weight: 800;
-    font-size: 20px;
-    padding: 10px 10 10px 10px;
-    border: 1px solid dark;
-    background: lightgreen;
-    border-radius: 10px;
-    width: 100px;
-    height: 35px;
-}
-#no:active {
-    filter: brightness(90%);
+.button--no {
+    transition: .3s;
 }
 
-#yesText {
-    text-align: center;
+.yesText {
     font-weight: 800;
     font-size: 25px;
 }
