@@ -1,25 +1,18 @@
-function newCoordinates() {
-    let pageWidth = document.documentElement.scrollWidth;
-    let pageHeight = document.documentElement.scrollHeight;
-    //let availableScreenWidth = window.screen.availWidth;
-    //let availableScreenHeight = window.screen.availHeight;
+const button_yes = document.querySelector(".button--yes")
+const button_no = document.querySelector(".button--no")
+const container = document.querySelector(".container")
+const text = document.querySelector(".yesText")
 
-    let newWidth = Math.floor(Math.random() * pageWidth);
-    let newHeight = Math.floor(Math.random() * pageHeight);
+const gap = 10
+const random = (min, max) => Math.floor(Math.random() * (max - min) + min);
 
-    newWidth = Math.floor(newWidth * 0.7)
-    newHeight = Math.floor(newHeight * 0.8)
+button_no.addEventListener("mousemove", () => {
+    let x = random(button_no.clientWidth + gap, container.clientWidth - button_no.clientWidth - gap)
+    let y = random(button_no.clientHeight + gap, container.clientHeight  - button_no.clientHeight - gap)
+    
+    button_no.style.transform = `translate(${x - button_no.offsetLeft}px, ${y - button_no.offsetTop}px)`
+})
 
-    console.log("newWidth: " + newWidth);
-    console.log("newHeight: " + newHeight);
-
-    let no = document.getElementById("no");
-
-    no.style.top = newHeight + "px";
-    no.style.left = newWidth + "px";
-}
-
-function yes() {
-    let yesText = document.getElementById("yesText");
-    yesText.textContent = "ТЫ КРАСАВЧИК!";
-}
+button_yes.addEventListener("click", () => {
+    text.innerHTML = "ТЫ КРАСАВЧИК!"
+})
