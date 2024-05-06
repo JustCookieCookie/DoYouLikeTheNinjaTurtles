@@ -1,13 +1,12 @@
 const button_yes = document.querySelector(".button--yes")
 const button_no = document.querySelector(".button--no")
 const container = document.querySelector(".container")
+const text = document.querySelector(".yesText")
 
 const gap = 10
 const random = (min, max) => Math.floor(Math.random() * (max - min) + min);
 
 button_no.addEventListener("mousemove", () => {
-
-
     let x = random(button_no.clientWidth + gap, container.clientWidth - button_no.clientWidth - gap)
     let y = random(button_no.clientHeight + gap, container.clientHeight  - button_no.clientHeight - gap)
     
@@ -15,5 +14,5 @@ button_no.addEventListener("mousemove", () => {
 })
 
 button_yes.addEventListener("click", () => {
-    document.querySelector(".yesText").innerHTML = "ТЫ КРАСАВЧИК!"
+    text.innerHTML = "ТЫ КРАСАВЧИК!"
 })
